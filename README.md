@@ -11,6 +11,6 @@ $ git clone https://github.com/jeffersonbraster/summary-langchain
 # Access the project folder
 $ pip install -r requirements.txt
 
-#interface
-$ streamlit run summary.py
+#Rodando a api
+$ uvicorn summary:app --host 0.0.0.0 --port 8000 --reload
 ```
